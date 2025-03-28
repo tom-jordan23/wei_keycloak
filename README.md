@@ -2,6 +2,8 @@
 
 This guide describes how to configure a Rails application to use SAML for authentication via Keycloak, with group membership obtained from LDAP. Group data is included in the SAML response so that Rails apps do not require direct LDAP access.
 
+Note that I had an LDAP server handy for this testing so have not included one below. The file `test_users.ldif` contains a few test users and groups that can be imported into an LDAP server (e.g. 389 or OpenLDAP) and then synced with Keycloak.
+
 ---
 
 ## 1. Run Keycloak in Docker
