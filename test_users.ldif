@@ -1,0 +1,121 @@
+dn: ou=people,dc=wisc,dc=edu
+objectClass: top
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=wisc,dc=edu
+objectClass: top
+objectClass: organizationalUnit
+
+dn: uid=carl,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Carl Donnally
+sn: Donnally
+uid: carl
+mail: carl@dcc.invalid
+userPassword: test123
+
+dn: uid=donut,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Princess Donut
+sn: Donut
+uid: donut
+mail: donut@dcc.invalid
+userPassword: test123
+
+dn: uid=mongo,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Mongo Wall
+sn: Wall
+uid: mongo
+mail: mongo@dcc.invalid
+userPassword: test123
+
+dn: uid=mordecai,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Mordecai Manager
+sn: Manager
+uid: mordecai
+mail: mordecai@dcc.invalid
+userPassword: test123
+
+dn: uid=katia,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Katia Grim
+sn: Grim
+uid: katia
+mail: katia@dcc.invalid
+userPassword: test123
+
+dn: uid=lucia,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Lucia Mar
+sn: Mar
+uid: lucia
+mail: lucia@dcc.invalid
+userPassword: test123
+
+dn: uid=miriam,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Miriam Dom
+sn: Dom
+uid: miriam
+mail: miriam@dcc.invalid
+userPassword: test123
+
+dn: uid=bautista,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Daniel Bautista
+sn: Bautista
+uid: bautista
+mail: bautista@dcc.invalid
+userPassword: test123
+
+dn: uid=elle,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Elle McGibbons
+sn: McGibbons
+uid: elle
+mail: elle@dcc.invalid
+userPassword: test123
+
+dn: uid=prepotente,ou=people,dc=wisc,dc=edu
+objectClass: inetOrgPerson
+objectClass: top
+cn: Prepotente Dom
+sn: Dom
+uid: prepotente
+mail: prepotente@dcc.invalid
+userPassword: test123
+
+dn: cn=RoyalCourtOfPrincessDonut,ou=groups,dc=wisc,dc=edu
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: RoyalCourtOfPrincessDonut
+uniqueMember: uid=carl,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=donut,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=mongo,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=mordecai,ou=people,dc=wisc,dc=edu
+
+dn: cn=EarthCrawlers,ou=groups,dc=wisc,dc=edu
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: EarthCrawlers
+uniqueMember: uid=carl,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=donut,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=katia,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=lucia,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=miriam,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=bautista,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=elle,ou=people,dc=wisc,dc=edu
+uniqueMember: uid=prepotente,ou=people,dc=wisc,dc=edu
+
